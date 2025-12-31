@@ -34,14 +34,6 @@ img {
   border-radius: 14px;
 }
 
-video {
-  display: block;
-  max-width: clamp(200px, 45vw, 320px);
-  max-height: 65vh;
-  margin: 0 auto;
-  border-radius: 14px;
-}
-
 h1, h2, h3 {
   margin: 0 0 0.35em;
   font-weight: 700;
@@ -121,6 +113,8 @@ p {
 .media-image {
   flex: 1 1 320px;
   text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
 }
 
 .media-text {
@@ -182,8 +176,8 @@ p {
 
 .photo img,
 .photo video {
-  max-width: clamp(200px, 45vw, 320px);
-  max-height: 65vh;
+  max-width: clamp(240px, 70vw, 560px);
+  max-height: 80vh;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
   margin: 0 auto;
   border-radius: 14px;
@@ -285,5 +279,11 @@ blockquote cite {
 
   .panel-body {
     margin-top: -60px;
+  }
+
+  .photo img,
+  .photo video {
+    max-width: 92vw;
+    max-height: 70vh;
   }
 }
