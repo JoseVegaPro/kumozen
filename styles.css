@@ -304,9 +304,10 @@ blockquote cite {
 .media-image .tall-media,
 .photo .tall-media {
   aspect-ratio: 9 / 16;
-  width: min(90vw, 440px);
+  width: min(92vw, 480px);
   height: auto;
-  max-height: 80vh;
+  max-height: calc(100vh - 140px);
+  object-fit: contain;
   margin-left: auto;
   margin-right: auto;
 }
@@ -347,7 +348,7 @@ blockquote cite {
 
   .media-image .tall-media,
   .photo .tall-media {
-    width: min(94vw, 420px);
-    max-height: 82vh;
+    width: min(96vw, 460px);
+    max-height: calc(100vh - 120px);
   }
 }
