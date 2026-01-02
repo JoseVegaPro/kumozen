@@ -1,161 +1,290 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>希望 – 耳のある者は聞きなさい</title>
+  <title>Kumozen | Hope Protocol</title>
   <link rel="icon" href="images/cropped-4320dea31b7d2aebcc9fdbff4e8d6ae9_thumb-2.png">
   <link rel="stylesheet" href="styles.css">
   <script src="main.js" defer></script>
 </head>
-<body class="kumozen">
-  <header class="hero" id="top">
-    <div class="hero-bg" style="background-image: url('images/cherry-blossoms-7110279_1920.jpg');"></div>
-    <div class="hero-overlay">
-      <h1>希望</h1>
-      <p>耳のある者は聞きなさい</p>
+<body class="kpr-skin" id="top">
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <header class="shell">
+    <nav class="nav-bar wrap">
+      <div class="nav-brand">
+        <span class="brand-mark">Kumozen ✦ Lito</span>
+        <span class="nav-divider"></span>
+        <span class="brand-sub">Hope Protocol</span>
+      </div>
+      <div class="nav-actions">
+        <a class="nav-link" href="#signal">Briefing 01</a>
+        <a class="nav-link" href="#signal-b">Briefing 02</a>
+        <a class="nav-link" href="#signal-c">Briefing 03</a>
+        <a class="nav-link" href="#study">Start your journey</a>
+      </div>
+    </nav>
+
+    <div class="wrap hero-panel panel">
+      <div class="panel-overlay"></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Transmission 01 · JP / EN feed</p>
+          <h1>希望 — Ear to hear</h1>
+          <p class="lede">Static clears. Light breaks through. The hope of the Gospel keeps pulsing even when the world feels dark.</p>
+          <div class="chips">
+            <span class="chip">Faith Online</span>
+            <span class="chip accent">Keep. Protect. Reimagine.</span>
+            <span class="chip mono">Signal • 24/7</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn primary" href="#signal">Open the scroll</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="media-frame">
+            <div class="media-meta">
+              <span class="mono-label">Live feed</span>
+              <span class="pill">Hope.exe</span>
+            </div>
+            <video class="hero-video" autoplay muted loop playsinline preload="metadata" data-autoplay-visible>
+              <source src="videos/kumozen-yokoso.mp4" type="video/mp4">
+            </video>
+            <div class="media-foot">
+              <span class="mono-label">Signal strength</span>
+              <div class="meter">
+                <span class="meter-fill"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main id="home">
-    <section class="section intro">
-      <div class="wrap">
-        <div class="media-block">
-          <figure class="media-image tall-frame">
-            <video class="featured-video tall-media" autoplay muted loop playsinline preload="metadata" data-autoplay-visible>
-              <source src="videos/kumozen-yokoso.mp4" type="video/mp4">
-            </video>
-          </figure>
-          <div class="media-text">
-            <p class="lead">ここから始まる旅</p>
-          </div>
-        </div>
+  <main class="wrap">
+    <section class="section signal" id="signal">
+      <div class="section-head">
+        <p class="eyebrow">Briefing 01</p>
+        <h2>Light cutting through the interference</h2>
+        <p class="muted">Snapshots from the field; stories and verses that keep us awake to grace.</p>
       </div>
-    </section>
 
-    <section class="panel" id="blind">
-      <div class="panel-hero" style="background-image: url('images/berries-5772385_1920-1920x1200.jpg');">
-        <div class="panel-hero-overlay"></div>
+      <div class="snap-hint" aria-hidden="true">
+        <span class="hint-line"></span>
+        <span>Scroll</span>
       </div>
-      <div class="panel-body wrap">
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/people-2574506_1920-1536x1021.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>この世の神が、信じようとはしないこの人々の心の目をくらまし、神の似姿であるキリストの栄光に関する福音の光が見えないようにしたのです。</p>
-            <cite>コリントの信徒への手紙二 4:4</cite>
-          </blockquote>
-        </div>
 
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/girl-2573111_1920-1536x1024.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>あなたたちは真理を知り、真理はあなたたちを自由にする。</p>
-            <cite>ヨハネによる福音書 8:32</cite>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel" id="truth">
-      <div class="panel-hero" style="background-image: url('images/stones-2780171_1920.jpg');">
-        <div class="panel-hero-overlay"></div>
-      </div>
-      <div class="panel-body wrap">
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/jesus-5347929_1920-1536x868.jpg" alt="" loading="lazy">
-          </figure>
-          <figure class="photo">
-            <img class="full-frame" src="images/img5.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>人は皆、罪を犯して神の栄光を受けられなくなっていますが、</p>
-            <cite>ローマの信徒への手紙 3:23</cite>
-          </blockquote>
-        </div>
-
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/flower-316437-1536x1017.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>罪が支払う報酬は死です。しかし、神の賜物は、わたしたちの主キリスト・イエスによる永遠の命なのです。</p>
-            <cite>ローマの信徒への手紙 6:23</cite>
-          </blockquote>
-          <figure class="photo">
-            <img src="images/meeting-273857_1920-1536x1024.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>また、人間にはただ一度死ぬことと、その後に裁きを受けることが定まっているように、</p>
-            <cite>ヘブライ人への手紙‬ ‭9:27‬</cite>
-          </blockquote>
-        </div>
-
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/jesus-4779549_1920-1536x867.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>神はこのキリストを立て、その血によって信じる者のために罪を償う供え物となさいました。それは、今まで人が犯した罪を見逃して、神の義をお示しになるためです。</p>
-            <cite>ローマの信徒への手紙 3:25</cite>
-          </blockquote>
-          <figure class="photo">
-            <img src="images/jesus-4779543_1920-1536x867.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>兄弟たち、わたしがあなたがたに告げ知らせた福音を、ここでもう一度知らせます。これは、あなたがたが受け入れ、生活のよりどころとしている福音にほかなりません。どんな言葉でわたしが福音を告げ知らせたか、しっかり覚えていれば、あなたがたはこの福音によって救われます。さもないと、あなたがたが信じたこと自体が、無駄になってしまうでしょう。最も大切なこととしてわたしがあなたがたに伝えたのは、わたしも受けたものです。すなわち、キリストが、聖書に書いてあるとおりわたしたちの罪のために死んだこと、葬られたこと、また、聖書に書いてあるとおり三日目に復活したこと、</p>
-            <cite>コリントの信徒への手紙一 15:1-4</cite>
-          </blockquote>
-        </div>
-
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/hand-1549399_1920-1536x1132.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>事実、あなたがたは、恵みにより、信仰によって救われました。このことは、自らの力によるのではなく、神の賜物です。行いによるのではありません。それは、だれも誇ることがないためなのです。</p>
-            <cite>エフェソの信徒への手紙 2:8-9</cite>
-          </blockquote>
-        </div>
-
-        <div class="story-block">
-          <figure class="photo">
-            <img src="images/beach-1868772_1920-1536x1025.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>時は満ち、神の国は近づいた。悔い改めて福音を信じなさいと言われた。</p>
-            <cite>マルコによる福音書 1:15</cite>
-          </blockquote>
-          <figure class="photo">
-            <img src="images/corgi-4415649_1920-1536x1017.jpg" alt="" loading="lazy">
-          </figure>
-          <blockquote>
-            <p>もし、わたしたちが自分の罪を告白するならば、神は真実で正しいかたであるから、その罪をゆるし、すべての不義からわたしたちをきよめて下さる。</p>
-            <cite>ヨハネの第一の手紙 1:9</cite>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel" id="dedicated">
-      <div class="panel-hero" style="background-image: url('images/cherry-blossom-tree-1225186_1920-1920x1200.jpg');">
-        <div class="panel-hero-overlay"></div>
-      </div>
-      <div class="panel-body wrap">
-        <div class="media-block reverse">
-          <div class="media-text">
-            <p>You always have hope.<br>Listen to your ❤️ and conscience.</p>
-            <div class="buttons">
-              <a class="button outline" href="https://firstlevel.org/" target="_blank" rel="noreferrer noopener">Study Resource</a>
+      <div class="snap-track">
+        <article class="signal-card snap-card tone-green panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">01 // Blindfolds Off</p>
+              <p class="card-lede">Static clears. Light breaks through.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/people-2574506_1920-1536x1021.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">この世の神が、信じようとはしないこの人々の心の目をくらまし、神の似姿であるキリストの栄光に関する福音の光が見えないようにしたのです。</p>
+              <span class="pill ghost verse-pill">2 Cor 4:4</span>
             </div>
           </div>
-          <figure class="media-image">
-            <img class="tall-media" src="images/278348283_1861268324062927_8396949151724412585_n.jpg" alt="" loading="lazy">
-          </figure>
+        </article>
+
+        <article class="signal-card snap-card tone-amber panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">02 // Truth Liberates</p>
+              <p class="card-lede">Truth cuts the tether and unlocks the cell.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/girl-2573111_1920-1536x1024.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">あなたたちは真理を知り、真理はあなたたちを自由にする。</p>
+              <span class="pill ghost verse-pill">John 8:32</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="signal-card snap-card tone-orange panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">03 // Sin Revealed</p>
+              <p class="card-lede">Seeing the problem makes room for grace.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/img5.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">人は皆、罪を犯して神の栄光を受けられなくなっていますが、</p>
+              <span class="pill ghost verse-pill">Rom 3:23</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section signal" id="signal-b">
+      <div class="section-head">
+        <p class="eyebrow">Briefing 02</p>
+        <h2>The cost and the rescue</h2>
+        <p class="muted">Wages of sin, certainty of death, and mercy revealed.</p>
+      </div>
+
+      <div class="snap-hint" aria-hidden="true">
+        <span class="hint-line"></span>
+        <span>Scroll</span>
+      </div>
+
+      <div class="snap-track">
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">04 // Gift over wages</p>
+              <p class="card-lede">Death was owed; life was gifted.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/flower-316437-1536x1017.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">罪が支払う報酬は死です。しかし、神の賜物は、わたしたちの主キリスト・イエスによる永遠の命なのです。</p>
+              <span class="pill ghost verse-pill">Rom 6:23</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">05 // One life</p>
+              <p class="card-lede">Finite breaths, then the verdict.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/meeting-273857_1920-1536x1024.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">また、人間にはただ一度死ぬことと、その後に裁きを受けることが定まっているように、</p>
+              <span class="pill ghost verse-pill">Heb 9:27</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">06 // Mercy displayed</p>
+              <p class="card-lede">Cross light answers the debt.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/jesus-4779549_1920-1536x867.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">神はこのキリストを立て、その血によって信じる者のために罪を償う供え物となさいました。それは、今まで人が犯した罪を見逃して、神の義をお示しになるためです。</p>
+              <span class="pill ghost verse-pill">Rom 3:25</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section signal" id="signal-c">
+      <div class="section-head">
+        <p class="eyebrow">Briefing 03</p>
+        <h2>Core of the Gospel</h2>
+        <p class="muted">Death, resurrection, grace, the call to believe, and the promise to cleanse.</p>
+      </div>
+
+      <div class="snap-hint" aria-hidden="true">
+        <span class="hint-line"></span>
+        <span>Scroll</span>
+      </div>
+
+      <div class="snap-track">
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">07 // Gospel core</p>
+              <p class="card-lede">The news we received is the news we carry.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/jesus-4779543_1920-1536x867.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">兄弟たち、わたしがあなたがたに告げ知らせた福音を、ここでもう一度知らせます。これは、あなたがたが受け入れ、生活のよりどころとしている福音にほかなりません。どんな言葉でわたしが福音を告げ知らせたか、しっかり覚えていれば、あなたがたはこの福音によって救われます。さもないと、あなたがたが信じたこと自体が、無駄になってしまうでしょう。最も大切なこととしてわたしがあなたがたに伝えたのは、わたしも受けたものです。すなわち、キリストが、聖書に書いてあるとおりわたしたちの罪のために死んだこと、葬られたこと、また、聖書に書いてあるとおり三日目に復活したこと、</p>
+              <span class="pill ghost verse-pill">1 Cor 15:1-4</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">08 // Gifted faith</p>
+              <p class="card-lede">Even faith itself is handed to us.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/hand-1549399_1920-1536x1132.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">事実、あなたがたは、恵みにより、信仰によって救われました。このことは、自らの力によるのではなく、神の賜物です。</p>
+              <span class="pill ghost verse-pill">Eph 2:8-9</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">09 // Time fulfilled</p>
+              <p class="card-lede">The clock hit zero; the kingdom is near.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/beach-1868772_1920-1536x1025.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">時は満ち、神の国は近づいた。悔い改めて福音を信じなさいと言われた。</p>
+              <span class="pill ghost verse-pill">Mark 1:15</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="signal-card snap-card panel">
+          <div class="card-grid">
+            <div class="card-text">
+              <p class="mono-label">10 // Confess + cleanse</p>
+              <p class="card-lede">Honest confession meets faithful cleansing.</p>
+            </div>
+            <div class="card-media">
+              <img src="images/corgi-4415649_1920-1536x1017.jpg" alt="" loading="lazy">
+            </div>
+            <div class="card-verse">
+              <p class="verse">もし、わたしたちが自分の罪を告白するならば、神は真実で正しいかたであるから、その罪をゆるし、すべての不義からわたしたちをきよめて下さる。</p>
+              <span class="pill ghost verse-pill">1 John 1:9</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section study panel" id="study">
+      <div class="panel-overlay alt"></div>
+      <div class="study-grid">
+        <div class="study-copy">
+          <p class="eyebrow">Stay Awake</p>
+          <h3>You always have hope.<br>Listen to your ❤️ and conscience.</h3>
+          <p class="muted">A curated study link and a reminder that the signal is still live.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://firstlevel.org/" target="_blank" rel="noreferrer noopener">Study Resource</a>
+            <a class="btn ghost" href="#top">Back to top</a>
+          </div>
+        </div>
+        <div class="study-media">
+          <img class="tall-media" src="images/278348283_1861268324062927_8396949151724412585_n.jpg" alt="" loading="lazy">
         </div>
       </div>
     </section>

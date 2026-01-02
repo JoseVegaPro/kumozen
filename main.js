@@ -55,7 +55,54 @@ function setupVideoAutoplay() {
   videos.forEach((video) => observer.observe(video));
 }
 
+function setupNavState() {
+  const nav = document.querySelector('.nav-bar');
+  if (!nav) return;
+
+  const update = () => {
+    nav.classList.toggle('is-solid', window.scrollY > 24);
+  };
+
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+}
+
+function setupSnapReveal() {
+  const cards = Array.from(document.querySelectorAll('.snap-card'));
+  if (!cards.length) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle('is-visible', entry.isIntersecting);
+      });
+    },
+    { threshold: 0.35 }
+  );
+
+  cards.forEach((card) => observer.observe(card));
+}
+
+function setupSmoothAnchors() {
+  const links = Array.from(document.querySelectorAll('a[href^="#"]'));
+  if (!links.length) return;
+
+  links.forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const hash = link.getAttribute('href');
+      const target = hash && document.querySelector(hash);
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', hash);
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setupMediaLoading();
   setupVideoAutoplay();
+  setupNavState();
+  setupSnapReveal();
+  setupSmoothAnchors();
 });
