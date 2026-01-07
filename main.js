@@ -6,58 +6,6 @@ function markLoaded(el) {
   el.classList.add('is-loaded');
 }
 
-function setupLoader() {
-  const loader = document.querySelector('.loader');
-  if (!loader) return;
-
-  const body = document.body;
-  const durationMs = prefersReducedMotion ? 1600 : 12000;
-  let finished = false;
-  let finishScheduled = false;
-
-  const finish = () => {
-    if (finished) return;
-    finished = true;
-    loader.classList.add('is-hidden');
-    body.classList.remove('is-loading');
-  };
-
-  body.classList.add('is-loading');
-
-  const scheduleFinish = () => {
-    if (finishScheduled) return;
-    finishScheduled = true;
-    if (window.gsap && !prefersReducedMotion) {
-      const fadeMs = 700;
-      const holdMs = Math.max(0, durationMs - fadeMs);
-      gsap.to(loader, {
-        opacity: 0,
-        duration: fadeMs / 1000,
-        ease: 'power2.in',
-        delay: holdMs / 1000,
-        onComplete: finish
-      });
-    } else {
-      window.setTimeout(finish, durationMs);
-    }
-  };
-
-  scheduleFinish();
-
-  if (window.gsap && !prefersReducedMotion) {
-    gsap.fromTo(
-      loader,
-      { opacity: 0 },
-      { opacity: 1, duration: 0.6, ease: 'power2.out' }
-    );
-    gsap.fromTo(
-      loader.querySelector('.loader-core'),
-      { y: 18, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out', delay: 0.2 }
-    );
-  }
-}
-
 function setupMediaLoading() {
   const media = document.querySelectorAll('img[loading], video[preload]');
 
@@ -152,7 +100,6 @@ function setupSmoothAnchors() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  setupLoader();
   setupMediaLoading();
   setupVideoAutoplay();
   setupNavState();
