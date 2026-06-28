@@ -1,0 +1,1345 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bbRxP",
+      "x": 0,
+      "y": 0,
+      "name": "Kumozen | Hope Protocol Prototype",
+      "clip": true,
+      "width": 800,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#F6F2E8",
+            "position": 0
+          },
+          {
+            "color": "#F1EFE8",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "gap": 28,
+      "children": [
+        {
+          "type": "frame",
+          "id": "TMLSI",
+          "name": "Header",
+          "width": 800,
+          "fill": "#F6F2E8",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "NjFtF",
+              "name": "nav",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HQsN7",
+                  "name": "brand",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ndgNc",
+                      "name": "brandMark",
+                      "fill": "#0F241A",
+                      "content": "Kumozen ✦ Lito",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "967Oh",
+                      "name": "navDot",
+                      "fill": "#B4F54B",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "aydWl",
+                      "name": "brandSub",
+                      "fill": "#4A5B52",
+                      "content": "Hope Protocol",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zLbP9",
+                  "name": "actions",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2zJa5",
+                      "name": "link1",
+                      "fill": "#0F241A",
+                      "content": "Briefing 01",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WjxfG",
+                      "name": "link2",
+                      "fill": "#0F241A",
+                      "content": "Briefing 02",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7H2f7",
+                      "name": "link3",
+                      "fill": "#0F241A",
+                      "content": "Briefing 03",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2bzQw",
+                      "name": "link4",
+                      "fill": "#0F241A",
+                      "content": "Start your journey",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GM6tu",
+              "name": "Hero Panel",
+              "width": "fill_container",
+              "fill": "#FFFFFFE0",
+              "cornerRadius": 18,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#10282126"
+              },
+              "layout": "vertical",
+              "gap": 18,
+              "padding": [
+                34,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wQ2oE",
+                  "name": "eyebrow",
+                  "fill": "#4A5B52",
+                  "content": "Transmission 01 · JP / EN feed",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ViHGq",
+                  "name": "heroTitle",
+                  "fill": "#0F241A",
+                  "content": "希望 — Ear to hear",
+                  "fontFamily": "Inter",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "S0JRS",
+                  "name": "heroLede",
+                  "fill": "#0F241A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Static clears. Light breaks through. The hope of the Gospel keeps pulsing even when the world feels dark.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "5tult",
+                  "name": "chips",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mT1K7",
+                      "name": "chip1",
+                      "fill": "#4A5B52",
+                      "content": "Faith Online",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bt6J6",
+                      "name": "chip2",
+                      "fill": "#0F241A",
+                      "content": "Keep. Protect. Reimagine.",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7Lhvz",
+                      "name": "chip3",
+                      "fill": "#4A5B52",
+                      "content": "Signal • 24/7",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wRinP",
+                  "name": "ctaRow",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "29X9S",
+                      "name": "btnPrimary",
+                      "fill": "#EF6B45",
+                      "cornerRadius": 999,
+                      "padding": [
+                        10,
+                        18
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B6RTb",
+                          "name": "btnLabel",
+                          "fill": "#FFFFFF",
+                          "content": "Open the scroll",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uAlVo",
+                  "name": "Hero Media",
+                  "width": "fill_container",
+                  "fill": "#FFFFFFF2",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1028214D"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s6tsm",
+                      "name": "mediaMeta",
+                      "fill": "#4A5B52",
+                      "content": "Live feed · Hope.exe",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ilpay",
+                      "name": "hero-video",
+                      "width": "fill_container",
+                      "height": 420,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/cherry-blossoms-7110279_1920.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "pvDYu",
+                      "name": "heroVideoLabel",
+                      "fill": "#4A5B52",
+                      "content": "Video asset: videos/kumozen-yokoso.mp4",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MkmVX",
+                      "name": "meterBg",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "#1028211F",
+                      "cornerRadius": 999,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eJL8C",
+                          "name": "meterFill",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "#B4F54B",
+                          "cornerRadius": 999
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RVL0k",
+          "name": "Briefing 01",
+          "width": "fill_container",
+          "fill": "#EDF4E8",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ssrr6",
+              "name": "sec1Eye",
+              "fill": "#4A5B52",
+              "content": "Act I · Briefing 01",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "Xd64V",
+              "name": "sec1Title",
+              "fill": "#0F241A",
+              "content": "Light cutting through the interference",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "o43wj",
+              "name": "sec1Muted",
+              "fill": "#4A5B52",
+              "content": "Snapshots from the field; stories and verses that keep us awake to grace.",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "zVB07",
+              "name": "sec1Scroll",
+              "fill": "#4A5B52",
+              "content": "↓ Scroll to enter",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "K0qMl",
+              "name": "cards1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tIROC",
+                  "name": "c1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFFE6",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y5pUF",
+                      "name": "c1text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "01 // Blindfolds Off\nStatic clears. Light breaks through.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Az1tk",
+                      "name": "c1img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/people-2574506_1920-1536x1021.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "FdPLZ",
+                      "name": "c1verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "この世の神が、信じようとはしないこの人々の心の目をくらまし、神の似姿であるキリストの栄光に関する福音の光が見えないようにしたのです。\n2 Cor 4:4",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HHX4V",
+                  "name": "c2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFFE6",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "namhj",
+                      "name": "c2text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "02 // Truth Liberates\nTruth cuts the tether and unlocks the cell.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aBITV",
+                      "name": "c2img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/girl-2573111_1920-1536x1024.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "OlGi8",
+                      "name": "c2verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "あなたたちは真理を知り、真理はあなたたちを自由にする。\nJohn 8:32",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nZomf",
+                  "name": "c3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFFE6",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kep3g",
+                      "name": "c3text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "03 // Sin Revealed\nSeeing the problem makes room for grace.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JejCe",
+                      "name": "c3img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/img5.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "VFM0w",
+                      "name": "c3verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "人は皆、罪を犯して神の栄光を受けられなくなっていますが、\nRom 3:23",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WmEeO",
+              "name": "journey1",
+              "width": "fill_container",
+              "fill": "#10282110",
+              "cornerRadius": 999,
+              "gap": 10,
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v9Dtj",
+                  "name": "journey1Text",
+                  "fill": "#0F241A",
+                  "content": "Journey checkpoint · The cost and the rescue ahead",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PqC5T",
+          "name": "Briefing 02",
+          "width": "fill_container",
+          "fill": "#F6EEE4",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "4G4sh",
+              "name": "sec2Eye",
+              "fill": "#4A5B52",
+              "content": "Act II · Briefing 02",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "RvzrV",
+              "name": "sec2Title",
+              "fill": "#0F241A",
+              "content": "The cost and the rescue",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "al8TH",
+              "name": "sec2Muted",
+              "fill": "#4A5B52",
+              "content": "Wages of sin, certainty of death, and mercy revealed.",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "W7J8Y",
+              "name": "sec2Scroll",
+              "fill": "#4A5B52",
+              "content": "↓ Continue the journey",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "DWniU",
+              "name": "cards2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Lmw8L",
+                  "name": "c4",
+                  "width": "fill_container",
+                  "fill": "#FFF8EF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8N1hY",
+                      "name": "c4text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "04 // Gift over wages\nDeath was owed; life was gifted.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AWher",
+                      "name": "c4img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/flower-316437-1536x1017.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "papZN",
+                      "name": "c4verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "罪が支払う報酬は死です。しかし、神の賜物は、わたしたちの主キリスト・イエスによる永遠の命なのです。\nRom 6:23",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J2lLm",
+                  "name": "c5",
+                  "width": "fill_container",
+                  "fill": "#FFF8EF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IeU9a",
+                      "name": "c5text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "05 // One life\nFinite breaths, then the verdict.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DwI3j",
+                      "name": "c5img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/meeting-273857_1920-1536x1024.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "M4uaD",
+                      "name": "c5verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "また、人間にはただ一度死ぬことと、その後に裁きを受けることが定まっているように、\nHeb 9:27",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iBgBX",
+                  "name": "c6",
+                  "width": "fill_container",
+                  "fill": "#FFF8EF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EuTpW",
+                      "name": "c6text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "06 // Mercy displayed\nCross light answers the debt.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IGHs8",
+                      "name": "c6img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/jesus-4779549_1920-1536x867.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZKm9Y",
+                      "name": "c6verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "神はこのキリストを立て、その血によって信じる者のために罪を償う供え物となさいました。それは、今まで人が犯した罪を見逃して、神の義をお示しになるためです。\nRom 3:25",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DKyZb",
+              "name": "journey2",
+              "width": "fill_container",
+              "fill": "#10282110",
+              "cornerRadius": 999,
+              "gap": 10,
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R5b36",
+                  "name": "journey2Text",
+                  "fill": "#0F241A",
+                  "content": "Journey checkpoint · Core of the Gospel ahead",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v15XK",
+          "name": "Briefing 03",
+          "width": "fill_container",
+          "fill": "#EDF0F6",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "xJP2W",
+              "name": "sec3Eye",
+              "fill": "#4A5B52",
+              "content": "Act III · Briefing 03",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "QjQIp",
+              "name": "sec3Title",
+              "fill": "#0F241A",
+              "content": "Core of the Gospel",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "vVIcV",
+              "name": "sec3Muted",
+              "fill": "#4A5B52",
+              "content": "Death, resurrection, grace, the call to believe, and the promise to cleanse.",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "s1Iy5",
+              "name": "sec3Scroll",
+              "fill": "#4A5B52",
+              "content": "↓ Last arc",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "M7u41",
+              "name": "cards3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aYJAB",
+                  "name": "c7",
+                  "width": "fill_container",
+                  "fill": "#F4F8FF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ijSiq",
+                      "name": "c7text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "07 // Gospel core\nThe news we received is the news we carry.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oRysp",
+                      "name": "c7img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/jesus-4779543_1920-1536x867.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "xxaEZ",
+                      "name": "c7verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "兄弟たち、わたしがあなたがたに告げ知らせた福音を、ここでもう一度知らせます。これは、あなたがたが受け入れ、生活のよりどころとしている福音にほかなりません。どんな言葉でわたしが福音を告げ知らせたか、しっかり覚えていれば、あなたがたはこの福音によって救われます。さもないと、あなたがたが信じたこと自体が、無駄になってしまうでしょう。最も大切なこととしてわたしがあなたがたに伝えたのは、わたしも受けたものです。すなわち、キリストが、聖書に書いてあるとおりわたしたちの罪のために死んだこと、葬られたこと、また、聖書に書いてあるとおり三日目に復活したこと、\n1 Cor 15:1-4",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RMVaY",
+                  "name": "c8",
+                  "width": "fill_container",
+                  "fill": "#F4F8FF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1GRZu",
+                      "name": "c8text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "08 // Gifted faith\nEven faith itself is handed to us.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0P2gC",
+                      "name": "c8img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/hand-1549399_1920-1536x1132.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "HEooY",
+                      "name": "c8verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "事実、あなたがたは、恵みにより、信仰によって救われました。このことは、自らの力によるのではなく、神の賜物です。\nEph 2:8-9",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1s4yo",
+                  "name": "c9",
+                  "width": "fill_container",
+                  "fill": "#F4F8FF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wRcxu",
+                      "name": "c9text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "09 // Time fulfilled\nThe clock hit zero; the kingdom is near.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zcOWg",
+                      "name": "c9img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/beach-1868772_1920-1536x1025.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "YtFpP",
+                      "name": "c9verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "時は満ち、神の国は近づいた。悔い改めて福音を信じなさいと言われた。\nMark 1:15",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CoSUU",
+                  "name": "c10",
+                  "width": "fill_container",
+                  "fill": "#F4F8FF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#10282126"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IbgQC",
+                      "name": "c10text",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "10 // Confess + cleanse\nHonest confession meets faithful cleansing.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eabe4",
+                      "name": "c10img",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/corgi-4415649_1920-1536x1017.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "XIdxJ",
+                      "name": "c10verse",
+                      "fill": "#0F241A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "もし、わたしたちが自分の罪を告白するならば、神は真実で正しいかたであるから、その罪をゆるし、すべての不義からわたしたちをきよめて下さる。\n1 John 1:9",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gBjGW",
+              "name": "journey3",
+              "width": "fill_container",
+              "fill": "#10282110",
+              "cornerRadius": 999,
+              "gap": 10,
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ye6Dc",
+                  "name": "journey3Text",
+                  "fill": "#0F241A",
+                  "content": "Journey checkpoint · Stay Awake and continue",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yXvaQ",
+          "name": "Study",
+          "width": "fill_container",
+          "fill": "#FFFFFFE8",
+          "cornerRadius": 18,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#10282126"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            36,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "vZo1Z",
+              "name": "studyEye",
+              "fill": "#4A5B52",
+              "content": "Finale · Stay Awake",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "3js2z",
+              "name": "studyTitle",
+              "fill": "#0F241A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "You always have hope.\nListen to your ❤️ and conscience.",
+              "lineHeight": 1.2,
+              "fontFamily": "Inter",
+              "fontSize": 38,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "WO0jC",
+              "name": "studyMuted",
+              "fill": "#4A5B52",
+              "content": "A curated study link and a reminder that the signal is still live.",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "jCCDo",
+              "name": "studyCtas",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "voxUz",
+                  "name": "studyBtn1",
+                  "fill": "#EF6B45",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ivGqz",
+                      "name": "studyBtn1Text",
+                      "fill": "#FFFFFF",
+                      "content": "Study Resource",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gdmeh",
+                  "name": "studyBtn2",
+                  "fill": "#10282114",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1028214D"
+                  },
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "16I35",
+                      "name": "studyBtn2Text",
+                      "fill": "#0F241A",
+                      "content": "Back to top",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HqAsb",
+              "name": "studyImage",
+              "width": "fill_container",
+              "height": 420,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/278348283_1861268324062927_8396949151724412585_n.jpg",
+                "mode": "fill"
+              },
+              "cornerRadius": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FvUWb",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#0F1913",
+          "padding": [
+            30,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "2bsV0",
+              "name": "footerLeft",
+              "fill": "#FFFFFF",
+              "content": "Hope...Always",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "gAL8W",
+              "name": "footerRight",
+              "fill": "#E9EFE7C2",
+              "content": "Made with ❤️ by Lito",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
